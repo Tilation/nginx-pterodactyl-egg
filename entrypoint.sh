@@ -1,5 +1,6 @@
 #!/bin/bash
 cd /home/container
+echo "Hola desde el script"
 
 # Replace Startup Variables
 MODIFIED_STARTUP=`eval echo $(echo ${STARTUP} | sed -e 's/{{/${/g' -e 's/}}/}/g')`
