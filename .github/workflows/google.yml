@@ -19,5 +19,4 @@ jobs:
       - name: Build the hello-docker Docker image
         run: |
            docker build . --tag ghcr.io/tilation/nginx-pterodactyl-egg:latest
-           docker run ghcr.io/tilation/nginx-pterodactyl-egg:latest
            docker push ghcr.io/tilation/nginx-pterodactyl-egg:latest
